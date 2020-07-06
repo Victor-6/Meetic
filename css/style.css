@@ -1,0 +1,185 @@
+body {
+    background-image: url("../image/paris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accueil {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-weight: normal;
+}
+
+.aphrodite {
+    display: flex;
+    justify-content: center;
+}
+
+.aphrodite img {
+    width: 60px;
+    height: 50px;
+    margin-top: 3%;
+}
+
+#connexion {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(50, 50, 50);
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 8px 8px;
+    border: 8px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#inscription {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(50, 50, 50);
+    width: 600px;
+    height: 690px;
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 8px 8px;
+    border: 8px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    width: 75px;
+    display: block;
+    float: left;
+}
+
+input[type='submit']:hover {
+    color: blue
+}
+
+table {
+    caption-side: top;
+}
+
+tr, th, #information {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    background-color: #0AD;
+    font-weight: bold;
+}
+
+#envoyer_submit {
+    margin-top: 5%;
+}
+
+#envoyer {
+    margin-top: 5%;
+}
+
+.boutton_bas {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    margin: 3px
+}
+
+#formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.button_inscription button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.button_inscription button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#button button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+#button button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#affichage {
+    display: flex;
+    justify-content: center;
+
+}
+
+#modifier_form {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(50, 50, 50);
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 8px 8px;
+    border: 8px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -6%;
+}
+
+#envoyer_modif {
+    margin-top: 5%;
+}
+
+#input button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+#input button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
